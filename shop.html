@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>オンラインショップ | shop relier</title>
+  <meta name="description" content="shop relier のオンラインショップ。ハンドメイド作家さんのアクセサリー・うつわ・革小物・布もの・キャンドルなどをお届けします。">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css?v=4">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="header-inner">
+    <a class="brand" href="index.html"><img class="brand-logo" src="images/logo-mark.png" alt=""><span class="brand-shop">shop</span><span class="brand-script">relier</span><small>— ショップ ルリエ —</small></a>
+    <nav class="global-nav">
+      <a href="index.html">ホーム</a>
+      <a href="shop.html" class="current">オンラインショップ</a>
+      <a href="order.html">オーダー・名入れ</a>
+      <a href="artists.html">取扱作家</a>
+      <a href="index.html#access">アクセス</a>
+      <a href="index.html#contact" class="nav-cta">お問い合わせ</a>
+    </nav>
+  </div>
+</header>
+
+<section>
+  <div class="container">
+    <div class="section-title">
+      <span class="en" id="shop-title-en">Online Shop</span>
+      <h2 id="shop-title">作品一覧</h2>
+    </div>
+
+    <p style="text-align:center; margin-bottom:34px;">
+      <a class="btn" href="https://shoprelier.base.shop/" target="_blank" rel="noopener">オンラインストア(BASE)はこちら</a>
+    </p>
+
+    <div class="note-box" style="margin:0 auto 46px;">
+      <strong>オンライン販売について</strong><br>
+      オンライン販売は、季節の変わり目などの期間限定で
+      <a href="https://shoprelier.base.shop/" target="_blank" rel="noopener">BASEオンラインストア</a>にて開催しています。
+      開催時期は <a href="https://www.instagram.com/shop_relier/" target="_blank" rel="noopener">Instagram</a> でお知らせします。<br>
+      通常期は店頭にてお求めいただけます。お取り置きやご質問もお気軽にどうぞ。
+    </div>
+
+    <div class="filter-bar" id="filter-bar"></div>
+    <div class="product-grid" id="shop-grid"></div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div class="footer-brand"><span class="brand-shop">shop</span><span class="brand-script">relier</span></div>
+    <nav class="footer-nav">
+      <a href="index.html">ホーム</a>
+      <a href="shop.html">オンラインショップ</a>
+      <a href="order.html">オーダー・名入れ</a>
+      <a href="artists.html">取扱作家</a>
+      <a href="index.html#access">アクセス</a>
+    </nav>
+  </div>
+  <div class="copyright">&copy; 2026 shop relier</div>
+</footer>
+
+<script src="js/products.js?v=4"></script>
+<script src="js/main.js?v=7"></script>
+<script>
+  // オンライン販売期間外は見出しを「代表作のご紹介」に切り替え
+  if (!ONLINE_SALE) {
+    document.getElementById("shop-title-en").textContent = "Gallery";
+    document.getElementById("shop-title").textContent = "代表作のご紹介";
+  }
+  renderProducts("shop-grid");
+  setupFilters("filter-bar", "shop-grid");
+</script>
+</body>
+</html>

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>取扱作家 | shop relier</title>
+  <meta name="description" content="shop relier の取扱作家のご紹介。オーナーが全国の作家さんへ自ら声をお掛けし、ひとつひとつ厳選してお預かりした作品が並びます。">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css?v=4">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="header-inner">
+    <a class="brand" href="index.html"><img class="brand-logo" src="images/logo-mark.png" alt=""><span class="brand-shop">shop</span><span class="brand-script">relier</span><small>— ショップ ルリエ —</small></a>
+    <nav class="global-nav">
+      <a href="index.html">ホーム</a>
+      <a href="shop.html">オンラインショップ</a>
+      <a href="order.html">オーダー・名入れ</a>
+      <a href="artists.html" class="current">取扱作家</a>
+      <a href="index.html#access">アクセス</a>
+      <a href="index.html#contact" class="nav-cta">お問い合わせ</a>
+    </nav>
+  </div>
+</header>
+
+<section>
+  <div class="container">
+    <div class="section-title">
+      <span class="en">Artists</span>
+      <h2>取扱作家のご紹介</h2>
+    </div>
+    <p style="max-width:640px; margin:0 auto; text-align:center;">
+      shop relier に並ぶ作品は、<br>
+      オーナーが全国の作家さんへ自ら声をお掛けし、<br>
+      ひとつひとつ厳選してお預かりしているものです。<br>
+      季節が変わるたびに並ぶ作品も変わります。<br>
+      お気に入りの作家さんを見つける楽しみも、ぜひ。
+    </p>
+    <div id="artist-sections"></div>
+    <p style="text-align:center; margin-top:44px;">
+      <a class="btn ghost" href="sweets.html">お菓子の作家さんを見る</a>
+    </p>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div class="footer-brand"><span class="brand-shop">shop</span><span class="brand-script">relier</span></div>
+    <nav class="footer-nav">
+      <a href="index.html">ホーム</a>
+      <a href="shop.html">オンラインショップ</a>
+      <a href="order.html">オーダー・名入れ</a>
+      <a href="artists.html">取扱作家</a>
+      <a href="index.html#access">アクセス</a>
+    </nav>
+  </div>
+  <div class="copyright">&copy; 2026 shop relier</div>
+</footer>
+
+<script src="js/artists.js?v=8"></script>
+<script src="js/main.js?v=7"></script>
+<script>
+  renderArtistsBySeason("artist-sections");
+</script>
+</body>
+</html>
