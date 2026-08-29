@@ -64,7 +64,10 @@ function artistCard(a) {
     ? `<img src="images/artists/${a.photo}" alt="${a.name} の作品">`
     : `<span class="artist-placeholder" style="background:${a.tint || "#f2efe9"}">${a.name}</span>`;
 
-  const insta = a.instagram
+  // detailUrl があるカードはカード全体が <a> になるため、中に別の <a>(Instagramリンク)を
+  // 入れるとHTMLとして不正(リンクの入れ子)になり表示が崩れる。その場合はInstagramリンクを
+  // 省略する(詳細ページ側に別途Instagramリンクがあるため)。
+  const insta = a.instagram && !a.detailUrl
     ? `<a class="artist-insta" href="${a.instagram}" target="_blank" rel="noopener">Instagram →</a>`
     : "";
 
