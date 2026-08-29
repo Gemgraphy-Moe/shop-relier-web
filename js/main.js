@@ -73,16 +73,23 @@ function artistCard(a) {
     ? ` <small>※${a.seasons.join("・")}の会期のみ</small>`
     : "";
 
+  // detailUrl があるカードは全体がリンクになり、詳細ページ(管理者サイトの
+  // 「作家ポートフォリオ」から書き出したHTML)へ遷移する。無ければ従来通り非リンク。
+  const tag = a.detailUrl ? "a" : "article";
+  const linkAttrs = a.detailUrl ? ` href="${a.detailUrl}"` : "";
+  const detailHint = a.detailUrl ? `<span class="artist-detail-link">詳しく見る →</span>` : "";
+
   return `
-    <article class="artist-card">
+    <${tag} class="artist-card"${linkAttrs}>
       <div class="artist-photo">${photo}</div>
       <div class="artist-body">
         <h3>${a.name}${a.kana ? ` <small>${a.kana}</small>` : ""}</h3>
         <span class="artist-genre">${a.genre}${seasonNote}</span>
         <p>${a.desc}</p>
         ${insta}
+        ${detailHint}
       </div>
-    </article>`;
+    </${tag}>`;
 }
 
 // お菓子の作家さん(通年)の描画。seasons 指定がある作家は現在の会期のときだけ表示

@@ -389,6 +389,25 @@ section.alt { background: var(--bg-alt); }
   flex-direction: column;
 }
 
+/* 詳細ページがある作家さんはカード全体がリンクになる */
+a.artist-card {
+  color: inherit;
+  text-decoration: none;
+  transition: transform 0.15s, box-shadow 0.15s;
+}
+
+a.artist-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 22px rgba(90, 80, 70, 0.14);
+}
+
+.artist-detail-link {
+  margin-top: auto;
+  padding-top: 10px;
+  font-size: 0.82rem;
+  color: var(--accent-deep);
+}
+
 .artist-photo {
   aspect-ratio: 4 / 3;
   overflow: hidden;

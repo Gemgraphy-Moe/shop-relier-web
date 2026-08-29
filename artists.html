@@ -8,7 +8,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@400;500;600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/style.css?v=4">
+  <link rel="stylesheet" href="css/style.css?v=5">
 </head>
 <body>
 
@@ -60,10 +60,12 @@
   <div class="copyright">&copy; 2026 shop relier</div>
 </footer>
 
-<script src="js/artists.js?v=8"></script>
-<script src="js/main.js?v=7"></script>
+<script src="js/artists.js?v=9"></script>
+<script src="js/main.js?v=9"></script>
 <script>
-  renderArtistsBySeason("artist-sections");
+  loadArtists().then(() => {
+    renderArtistsBySeason("artist-sections");
+  });
 </script>
 </body>
 </html>
