@@ -195,5 +195,17 @@
     "photo": "2.jpg",
     "artistId": 2,
     "tint": "#f2efe9"
+  },
+  {
+    "name": "Spring_Hill",
+    "kana": "スプリングヒル",
+    "genre": "ドライフラワー",
+    "desc": "色彩豊かなドライフラワーで、お部屋にいくつでも飾りたくなる彩りを。",
+    "instagram": "https://www.instagram.com/spring_hill_f/",
+    "detailUrl": "artists/3.html",
+    "category": "",
+    "photo": "3.jpg",
+    "artistId": 3,
+    "tint": "#f2efe9"
   }
 ]
