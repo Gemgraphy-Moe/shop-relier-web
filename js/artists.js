@@ -25,7 +25,10 @@ let ARTISTS = [];
 
 // artists-data.json を読み込んで ARTISTS を埋める。呼び出し側は
 // loadArtists().then(() => { ... render ... }) のように非同期で使うこと。
+// このファイルは管理者サイトの「公開する」ボタンで随時書き換わるため、
+// 固定のバージョン番号でキャッシュ対策するのではなく、
+// 毎回サーバーへ問い合わせて最新の内容を取得する(cache: "no-store")。
 async function loadArtists() {
-  const res = await fetch("js/artists-data.json?v=1");
+  const res = await fetch("js/artists-data.json", { cache: "no-store" });
   ARTISTS = await res.json();
 }
