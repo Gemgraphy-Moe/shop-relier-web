@@ -210,7 +210,11 @@
     "category": "",
     "photo": "3.jpg",
     "artistId": 3,
-    "tint": "#f2efe9"
+    "tint": "#f2efe9",
+    "seasons": [
+      "春",
+      "秋"
+    ]
   },
   {
     "name": "Kuu",
