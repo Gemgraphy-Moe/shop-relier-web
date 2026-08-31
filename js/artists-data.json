@@ -278,5 +278,17 @@
     "photo": "34.jpg",
     "artistId": 34,
     "tint": "#f2efe9"
+  },
+  {
+    "name": "le petiti bonheur",
+    "kana": "ル・プチ ボヌール",
+    "genre": "国産綿100%の子供服・小物",
+    "desc": "動物モチーフが可愛い、国産綿100%のこだわり生地を使った子供服。",
+    "instagram": "https://www.instagram.com/sako_fait.main/",
+    "detailUrl": "artists/35.html",
+    "category": "",
+    "photo": "35.jpg",
+    "artistId": 35,
+    "tint": "#f2efe9"
   }
 ]
