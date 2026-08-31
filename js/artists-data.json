@@ -207,5 +207,17 @@
     "photo": "3.jpg",
     "artistId": 3,
     "tint": "#f2efe9"
+  },
+  {
+    "name": "ミチカケ・ミチル堂/Kuu",
+    "kana": "クー",
+    "genre": "エコレジン(ジェスモナイト)作品",
+    "desc": "15歳の若い感性から生み出される、優しいエコレジン作品。",
+    "instagram": "",
+    "detailUrl": "artists/4.html",
+    "category": "",
+    "photo": "4.jpg",
+    "artistId": 4,
+    "tint": "#f2efe9"
   }
 ]
