@@ -290,7 +290,10 @@
     "category": "",
     "photo": "35.jpg",
     "artistId": 35,
-    "tint": "#f2efe9"
+    "tint": "#f2efe9",
+    "seasons": [
+      "夏"
+    ]
   },
   {
     "name": "gleen plum sachi",
