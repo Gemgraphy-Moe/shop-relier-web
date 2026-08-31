@@ -257,5 +257,17 @@
     "photo": "7.jpg",
     "artistId": 7,
     "tint": "#f2efe9"
+  },
+  {
+    "name": "はなたけまま",
+    "kana": "ハナタケママ",
+    "genre": "粘土細工(動物モチーフ)",
+    "desc": "動物園での経験を活かした、細部まで見事な粘土細工。",
+    "instagram": "https://www.instagram.com/hanatake.mama/",
+    "detailUrl": "artists/10.html",
+    "category": "",
+    "photo": "10.jpg",
+    "artistId": 10,
+    "tint": "#f2efe9"
   }
 ]
