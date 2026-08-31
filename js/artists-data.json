@@ -269,5 +269,17 @@
     "photo": "10.jpg",
     "artistId": 10,
     "tint": "#f2efe9"
+  },
+  {
+    "name": "Neue",
+    "kana": "ノイエ",
+    "genre": "香水(オリジナルフレグランス)",
+    "desc": "太陽、風、月をモチーフにした、八ヶ岳生まれの特別な香り。",
+    "instagram": "https://www.instagram.com/neue_maruken/",
+    "detailUrl": "artists/12.html",
+    "category": "",
+    "photo": "12.jpg",
+    "artistId": 12,
+    "tint": "#f2efe9"
   }
 ]
