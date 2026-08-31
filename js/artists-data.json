@@ -291,5 +291,20 @@
     "seasons": [
       "夏"
     ]
+  },
+  {
+    "name": "maum",
+    "kana": "マウム",
+    "genre": "韓国布小物",
+    "desc": "手作りの温かみが伝わる、韓国生地のふんわり布小物。",
+    "instagram": "https://www.instagram.com/maum___mi/",
+    "detailUrl": "artists/23.html",
+    "category": "",
+    "seasons": [
+      "春"
+    ],
+    "photo": "23.jpg",
+    "artistId": 23,
+    "tint": "#f2efe9"
   }
 ]
