@@ -241,7 +241,11 @@
     "category": "",
     "photo": "31.jpg",
     "artistId": 31,
-    "tint": "#f2efe9"
+    "tint": "#f2efe9",
+    "seasons": [
+      "夏",
+      "冬"
+    ]
   },
   {
     "name": "hanacoco",
