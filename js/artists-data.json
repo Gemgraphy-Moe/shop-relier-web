@@ -266,5 +266,17 @@
     "photo": "33.jpg",
     "artistId": 33,
     "tint": "#f2efe9"
+  },
+  {
+    "name": "melt.",
+    "kana": "メルト",
+    "genre": "天然石アクセサリー",
+    "desc": "涼しげなデザインが夏に活躍する、天然石アクセサリー。",
+    "instagram": "https://www.instagram.com/_.melt.___/",
+    "detailUrl": "artists/34.html",
+    "category": "",
+    "photo": "34.jpg",
+    "artistId": 34,
+    "tint": "#f2efe9"
   }
 ]
