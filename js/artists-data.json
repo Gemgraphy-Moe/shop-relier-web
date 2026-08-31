@@ -281,5 +281,17 @@
     "photo": "31.jpg",
     "artistId": 31,
     "tint": "#f2efe9"
+  },
+  {
+    "name": "hanacoco",
+    "kana": "ハナココ",
+    "genre": "ステンドグラス作品",
+    "desc": "北欧を感じる優しい色合いのステンドグラス作品。",
+    "instagram": "https://www.instagram.com/hanacoco.stainedglass/",
+    "detailUrl": "artists/33.html",
+    "category": "",
+    "photo": "33.jpg",
+    "artistId": 33,
+    "tint": "#f2efe9"
   }
 ]
