@@ -229,7 +229,10 @@
     "category": "",
     "photo": "32.jpg",
     "artistId": 32,
-    "tint": "#f2efe9"
+    "tint": "#f2efe9",
+    "seasons": [
+      "夏"
+    ]
   },
   {
     "name": "flaner",
