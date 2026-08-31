@@ -257,5 +257,17 @@
     "photo": "15.jpg",
     "artistId": 15,
     "tint": "#f2efe9"
+  },
+  {
+    "name": "海のサチ",
+    "kana": "ウミノサチ",
+    "genre": "シーグラス・ビーズ刺繍アクセサリー",
+    "desc": "海からの贈り物である海の幸と、ビーズ刺繍で作られるアクセサリー。",
+    "instagram": "https://www.instagram.com/amejimeji/",
+    "detailUrl": "artists/32.html",
+    "category": "",
+    "photo": "32.jpg",
+    "artistId": 32,
+    "tint": "#f2efe9"
   }
 ]
