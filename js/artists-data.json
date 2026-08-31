@@ -306,5 +306,20 @@
     "photo": "23.jpg",
     "artistId": 23,
     "tint": "#f2efe9"
+  },
+  {
+    "name": "L-fros",
+    "kana": "エル・フロス",
+    "genre": "ちりめん細工(人形・マスコット)",
+    "desc": "どこまでも細部にこだわる、指先の奇跡のようなちりめん人形。",
+    "instagram": "https://www.instagram.com/reilashop/",
+    "detailUrl": "artists/24.html",
+    "category": "",
+    "seasons": [
+      "春"
+    ],
+    "photo": "24.jpg",
+    "artistId": 24,
+    "tint": "#f2efe9"
   }
 ]
