@@ -290,5 +290,17 @@
     "photo": "35.jpg",
     "artistId": 35,
     "tint": "#f2efe9"
+  },
+  {
+    "name": "gleen plum sachi",
+    "kana": "グリーンプラムサチ",
+    "genre": "布小物",
+    "desc": "暮らしの中で、あるとほっこり嬉しいカラフルな布小物。",
+    "instagram": "https://www.instagram.com/green_plum_sachi/",
+    "detailUrl": "artists/36.html",
+    "category": "",
+    "photo": "36.jpg",
+    "artistId": 36,
+    "tint": "#f2efe9"
   }
 ]
