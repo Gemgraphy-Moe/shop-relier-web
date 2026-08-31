@@ -194,7 +194,11 @@
     "category": "",
     "photo": "2.jpg",
     "artistId": 2,
-    "tint": "#f2efe9"
+    "tint": "#f2efe9",
+    "seasons": [
+      "春",
+      "秋"
+    ]
   },
   {
     "name": "Spring_Hill",
