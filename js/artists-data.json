@@ -321,5 +321,20 @@
     "photo": "24.jpg",
     "artistId": 24,
     "tint": "#f2efe9"
+  },
+  {
+    "name": "mimimade",
+    "kana": "ミミメイド",
+    "genre": "カルトナージュ(布小物)",
+    "desc": "布と厚紙で作る、大人になっても惹かれる可愛いカルトナージュ作品。",
+    "instagram": "https://www.instagram.com/mimimade_108/",
+    "detailUrl": "artists/25.html",
+    "category": "",
+    "seasons": [
+      "春"
+    ],
+    "photo": "25.jpg",
+    "artistId": 25,
+    "tint": "#f2efe9"
   }
 ]
