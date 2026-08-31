@@ -281,5 +281,17 @@
     "photo": "12.jpg",
     "artistId": 12,
     "tint": "#f2efe9"
+  },
+  {
+    "name": "La Brise",
+    "kana": "ラブリーズ",
+    "genre": "籐小物・カゴバッグ",
+    "desc": "自然の素材からうまれる、そよ風のように心地よい籐小物。",
+    "instagram": "https://www.instagram.com/brise_garden/",
+    "detailUrl": "artists/15.html",
+    "category": "",
+    "photo": "15.jpg",
+    "artistId": 15,
+    "tint": "#f2efe9"
   }
 ]
