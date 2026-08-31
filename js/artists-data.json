@@ -275,7 +275,10 @@
     "category": "",
     "photo": "34.jpg",
     "artistId": 34,
-    "tint": "#f2efe9"
+    "tint": "#f2efe9",
+    "seasons": [
+      "夏"
+    ]
   },
   {
     "name": "le petiti bonheur",
