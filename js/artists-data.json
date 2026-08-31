@@ -211,7 +211,10 @@
     "category": "",
     "photo": "15.jpg",
     "artistId": 15,
-    "tint": "#f2efe9"
+    "tint": "#f2efe9",
+    "seasons": [
+      "夏"
+    ]
   },
   {
     "name": "海のサチ",
