@@ -227,5 +227,20 @@
     "photo": "4.jpg",
     "artistId": 4,
     "tint": "#f2efe9"
+  },
+  {
+    "name": "SORAIRO",
+    "kana": "ソライロ",
+    "genre": "海レジン作品",
+    "desc": "沢山の細かな工程を経て作り上げられる、もはや本物の海。",
+    "instagram": "https://www.instagram.com/sorairo_0124/",
+    "detailUrl": "artists/5.html",
+    "category": "",
+    "seasons": [
+      "夏"
+    ],
+    "photo": "5.jpg",
+    "artistId": 5,
+    "tint": "#f2efe9"
   }
 ]
