@@ -269,5 +269,17 @@
     "photo": "32.jpg",
     "artistId": 32,
     "tint": "#f2efe9"
+  },
+  {
+    "name": "flaner",
+    "kana": "フラネ",
+    "genre": "ドライフラワー",
+    "desc": "インテリアに馴染む、ほっこりするデザインのドライフラワー。",
+    "instagram": "https://www.instagram.com/flaner__flowers/",
+    "detailUrl": "artists/31.html",
+    "category": "",
+    "photo": "31.jpg",
+    "artistId": 31,
+    "tint": "#f2efe9"
   }
 ]
