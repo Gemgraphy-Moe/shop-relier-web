@@ -242,5 +242,20 @@
     "photo": "5.jpg",
     "artistId": 5,
     "tint": "#f2efe9"
+  },
+  {
+    "name": "nuute",
+    "kana": "ヌウテ",
+    "genre": "ドール服",
+    "desc": "誰とも被らない、オシャレで素敵なドール服。",
+    "instagram": "https://www.instagram.com/yukaiduma/",
+    "detailUrl": "artists/7.html",
+    "category": "",
+    "seasons": [
+      "夏"
+    ],
+    "photo": "7.jpg",
+    "artistId": 7,
+    "tint": "#f2efe9"
   }
 ]
