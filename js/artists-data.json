@@ -336,5 +336,20 @@
     "photo": "25.jpg",
     "artistId": 25,
     "tint": "#f2efe9"
+  },
+  {
+    "name": "cime",
+    "kana": "シーム",
+    "genre": "キャンドル",
+    "desc": "自然の中で生まれる感性そのままに。一点もののキャンドルを。",
+    "instagram": "https://www.instagram.com/candle_cime_kozu/",
+    "detailUrl": "artists/26.html",
+    "category": "",
+    "seasons": [
+      "春"
+    ],
+    "photo": "26.jpg",
+    "artistId": 26,
+    "tint": "#f2efe9"
   }
 ]
