@@ -402,5 +402,23 @@
     "photo": "29.jpg",
     "artistId": 29,
     "tint": "#f2efe9"
+  },
+  {
+    "name": "un petit pas",
+    "kana": "アンプティパ",
+    "genre": "アイシングクッキー",
+    "desc": "元パティシエが作り上げる、ずっと飾っていたくなる可愛いアイシングクッキー。",
+    "instagram": "https://www.instagram.com/unpetitpas_la_cobusi/",
+    "detailUrl": "artists/20.html",
+    "category": "お菓子",
+    "seasons": [
+      "春",
+      "夏",
+      "秋",
+      "冬"
+    ],
+    "photo": "20.jpg",
+    "artistId": 20,
+    "tint": "#f2efe9"
   }
 ]
