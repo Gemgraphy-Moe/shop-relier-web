@@ -436,5 +436,23 @@
     "photo": "19.jpg",
     "artistId": 19,
     "tint": "#f2efe9"
+  },
+  {
+    "name": "Inaho",
+    "kana": "イナホ",
+    "genre": "米粉のお菓子(ネコモチーフ)",
+    "desc": "ネコちゃんモチーフが可愛い、こだわり米粉のお菓子。",
+    "instagram": "https://www.instagram.com/komeko_inaho/",
+    "detailUrl": "artists/21.html",
+    "category": "お菓子",
+    "seasons": [
+      "春",
+      "夏",
+      "秋",
+      "冬"
+    ],
+    "photo": "21.jpg",
+    "artistId": 21,
+    "tint": "#f2efe9"
   }
 ]
