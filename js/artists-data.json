@@ -76,14 +76,20 @@
   {
     "name": "raruri*",
     "kana": "ラルリ",
-    "genre": "親子リンクアクセサリー・ビーズグラフィー®",
-    "desc": "世界で一つだけのビーズグラフィー®作品と親子リンクアクセサリー",
+    "genre": "親子リンクアクセサリー・ビーズグラフィー®作品",
+    "desc": "世界で一つだけのビーズグラフィー®作品と、親子で揃えたいリンクアクセサリー。",
     "instagram": "https://www.instagram.com/raruri_e/",
     "detailUrl": "artists/1.html",
     "category": "",
     "photo": "1.jpg",
     "artistId": 1,
-    "tint": "#f2efe9"
+    "tint": "#f2efe9",
+    "seasons": [
+      "春",
+      "夏",
+      "秋",
+      "冬"
+    ]
   },
   {
     "name": "chanthuke",
