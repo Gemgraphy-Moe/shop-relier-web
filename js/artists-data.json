@@ -420,5 +420,21 @@
     "photo": "20.jpg",
     "artistId": 20,
     "tint": "#f2efe9"
+  },
+  {
+    "name": "古谷園",
+    "kana": "フルヤエン",
+    "genre": "狭山茶",
+    "desc": "それぞれの茶葉に合わせた製法で、お茶本来の魅力を引き出す。",
+    "instagram": "https://www.instagram.com/furuyaen/",
+    "detailUrl": "artists/19.html",
+    "category": "お菓子",
+    "seasons": [
+      "夏",
+      "冬"
+    ],
+    "photo": "19.jpg",
+    "artistId": 19,
+    "tint": "#f2efe9"
   }
 ]
