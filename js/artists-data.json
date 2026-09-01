@@ -351,5 +351,20 @@
     "photo": "26.jpg",
     "artistId": 26,
     "tint": "#f2efe9"
+  },
+  {
+    "name": "filer.mimi1/2",
+    "kana": "フィレール・ミミ",
+    "genre": "タティングレースアクセサリー",
+    "desc": "糸を紡いで生み出される芸術、タティングレース。",
+    "instagram": "https://www.instagram.com/idumi.gaoyuan/",
+    "detailUrl": "artists/27.html",
+    "category": "",
+    "seasons": [
+      "春"
+    ],
+    "photo": "27.jpg",
+    "artistId": 27,
+    "tint": "#f2efe9"
   }
 ]
