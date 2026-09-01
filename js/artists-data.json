@@ -366,5 +366,20 @@
     "photo": "27.jpg",
     "artistId": 27,
     "tint": "#f2efe9"
+  },
+  {
+    "name": "Spin",
+    "kana": "スピン",
+    "genre": "ワッペン・アイロンアップリケ",
+    "desc": "子供から大人まで。他にはないオシャレで楽しいワッペン。",
+    "instagram": "https://www.instagram.com/spin0808/",
+    "detailUrl": "artists/28.html",
+    "category": "",
+    "seasons": [
+      "春"
+    ],
+    "photo": "28.jpg",
+    "artistId": 28,
+    "tint": "#f2efe9"
   }
 ]
