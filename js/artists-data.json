@@ -381,5 +381,20 @@
     "photo": "28.jpg",
     "artistId": 28,
     "tint": "#f2efe9"
+  },
+  {
+    "name": "craftyにしやまもえ",
+    "kana": "クラフティ モエ",
+    "genre": "似顔絵イラスト・キーホルダー",
+    "desc": "ペットと飼い主をテーマに。見るとほっこりする似顔絵イラスト。",
+    "instagram": "https://www.instagram.com/crafty.moe/",
+    "detailUrl": "artists/29.html",
+    "category": "",
+    "seasons": [
+      "春"
+    ],
+    "photo": "29.jpg",
+    "artistId": 29,
+    "tint": "#f2efe9"
   }
 ]
