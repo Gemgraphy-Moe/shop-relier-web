@@ -515,5 +515,20 @@
     "photo": "42.jpg",
     "artistId": 42,
     "tint": "#f2efe9"
+  },
+  {
+    "name": "HiKuNon",
+    "kana": "ヒクノン",
+    "genre": "刺繍・ビーズアクセサリー",
+    "desc": "ひと目見た瞬間心がときめく、こだわりの色合い。",
+    "instagram": "https://www.instagram.com/hikunon_kirika/",
+    "detailUrl": "artists/43.html",
+    "category": "",
+    "seasons": [
+      "秋"
+    ],
+    "photo": "43.jpg",
+    "artistId": 43,
+    "tint": "#f2efe9"
   }
 ]
