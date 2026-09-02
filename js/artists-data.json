@@ -563,5 +563,21 @@
     "photo": "22.jpg",
     "artistId": 22,
     "tint": "#f2efe9"
+  },
+  {
+    "name": "まひと",
+    "kana": "マヒト",
+    "genre": "オリジナルブレンドハーブティー",
+    "desc": "あなたの今の不調に、寄り添うオリジナルブレンドハーブティー。",
+    "instagram": "https://www.instagram.com/phyto__mahito/",
+    "detailUrl": "artists/30.html",
+    "category": "お菓子",
+    "seasons": [
+      "夏",
+      "冬"
+    ],
+    "photo": "30.jpg",
+    "artistId": 30,
+    "tint": "#f2efe9"
   }
 ]
