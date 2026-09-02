@@ -485,5 +485,20 @@
     "photo": "6.jpg",
     "artistId": 6,
     "tint": "#f2efe9"
+  },
+  {
+    "name": "Aroma",
+    "kana": "アロマ",
+    "genre": "あみぐるみ",
+    "desc": "そばにいると、ホッと幸せな気分になれるあみぐるみ。",
+    "instagram": "https://www.instagram.com/cheetah.aroma/",
+    "detailUrl": "artists/41.html",
+    "category": "",
+    "seasons": [
+      "秋"
+    ],
+    "photo": "41.jpg",
+    "artistId": 41,
+    "tint": "#f2efe9"
   }
 ]
