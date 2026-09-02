@@ -59,7 +59,10 @@
     "category": "",
     "photo": "4.jpg",
     "artistId": 4,
-    "tint": "#f2efe9"
+    "tint": "#f2efe9",
+    "seasons": [
+      "夏"
+    ]
   },
   {
     "name": "SORAIRO",
