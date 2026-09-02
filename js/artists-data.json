@@ -579,5 +579,23 @@
     "photo": "30.jpg",
     "artistId": 30,
     "tint": "#f2efe9"
+  },
+  {
+    "name": "ウサギノカフェ",
+    "kana": "ウサギノカフェ",
+    "genre": "焼き菓子(ウサギモチーフ)",
+    "desc": "雑貨みたいなお菓子を目指して。可愛くて美味しいこだわりの焼き菓子。",
+    "instagram": "https://www.instagram.com/usagino.cafe/",
+    "detailUrl": "artists/37.html",
+    "category": "お菓子",
+    "seasons": [
+      "春",
+      "夏",
+      "秋",
+      "冬"
+    ],
+    "photo": "37.jpg",
+    "artistId": 37,
+    "tint": "#f2efe9"
   }
 ]
