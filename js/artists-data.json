@@ -624,5 +624,20 @@
     "photo": "8.jpg",
     "artistId": 8,
     "tint": "#f2efe9"
+  },
+  {
+    "name": "Suzu_wa",
+    "kana": "スズワ",
+    "genre": "水引アクセサリー",
+    "desc": "伝統工芸水引に込められた想いや魅力を、もっと身近に。",
+    "instagram": "https://www.instagram.com/suzu_wa_/",
+    "detailUrl": "artists/11.html",
+    "category": "",
+    "seasons": [
+      "秋"
+    ],
+    "photo": "11.jpg",
+    "artistId": 11,
+    "tint": "#f2efe9"
   }
 ]
