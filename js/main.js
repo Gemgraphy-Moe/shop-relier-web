@@ -117,15 +117,20 @@ function renderArtists(targetId, category) {
 // 取扱作家ページ: 会期(春夏秋冬)ごとのセクションで描画。
 // 現在の会期が一番上、以降は新しい順(例: 夏 → 春 → 冬 → 秋)。
 // seasons 未指定の作家さんは現在の会期に表示されます。
-function renderArtistsBySeason(targetId) {
+// mode: 省略時は全会期。"current" なら現在の会期のみ、"others" なら現在の会期以外
+// (2つのコンテナに分けて描画し、その間にボタン等を挟みたい場合に使う)。
+function renderArtistsBySeason(targetId, mode) {
   const el = document.getElementById(targetId);
   if (!el || typeof ARTISTS === "undefined") return;
 
   const start = SEASON_ORDER.indexOf(CURRENT_SEASON);
   const hidden = typeof HIDDEN_SEASONS !== "undefined" ? HIDDEN_SEASONS : [];
-  const order = [0, 1, 2, 3]
+  let order = [0, 1, 2, 3]
     .map((i) => SEASON_ORDER[(start - i + 4) % 4])
     .filter((season) => !hidden.includes(season));
+
+  if (mode === "current") order = order.filter((s) => s === CURRENT_SEASON);
+  if (mode === "others") order = order.filter((s) => s !== CURRENT_SEASON);
 
   el.innerHTML = order.map((season) => {
     const items = ARTISTS.filter((a) => a.category !== "お菓子")

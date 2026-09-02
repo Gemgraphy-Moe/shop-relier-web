@@ -39,10 +39,11 @@
       季節が変わるたびに並ぶ作品も変わります。<br>
       お気に入りの作家さんを見つける楽しみも、ぜひ。
     </p>
-    <div id="artist-sections"></div>
+    <div id="artist-sections-current"></div>
     <p style="text-align:center; margin-top:44px;">
       <a class="btn ghost" href="sweets.html">お菓子の作家さんを見る</a>
     </p>
+    <div id="artist-sections-others"></div>
   </div>
 </section>
 
@@ -61,10 +62,11 @@
 </footer>
 
 <script src="js/artists.js?v=9"></script>
-<script src="js/main.js?v=11"></script>
+<script src="js/main.js?v=12"></script>
 <script>
   loadArtists().then(() => {
-    renderArtistsBySeason("artist-sections");
+    renderArtistsBySeason("artist-sections-current", "current");
+    renderArtistsBySeason("artist-sections-others", "others");
   });
 </script>
 </body>
