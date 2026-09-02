@@ -454,5 +454,20 @@
     "photo": "21.jpg",
     "artistId": 21,
     "tint": "#f2efe9"
+  },
+  {
+    "name": "ずんこ",
+    "kana": "ズンコ",
+    "genre": "動物モチーフの花器・オブジェ",
+    "desc": "飾っても持っても癒される、丸いフォルムの動物モチーフの花器。",
+    "instagram": "https://www.instagram.com/potelitoconel/",
+    "detailUrl": "artists/40.html",
+    "category": "",
+    "seasons": [
+      "秋"
+    ],
+    "photo": "40.jpg",
+    "artistId": 40,
+    "tint": "#f2efe9"
   }
 ]
