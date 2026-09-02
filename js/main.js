@@ -122,7 +122,10 @@ function renderArtistsBySeason(targetId) {
   if (!el || typeof ARTISTS === "undefined") return;
 
   const start = SEASON_ORDER.indexOf(CURRENT_SEASON);
-  const order = [0, 1, 2, 3].map((i) => SEASON_ORDER[(start - i + 4) % 4]);
+  const hidden = typeof HIDDEN_SEASONS !== "undefined" ? HIDDEN_SEASONS : [];
+  const order = [0, 1, 2, 3]
+    .map((i) => SEASON_ORDER[(start - i + 4) % 4])
+    .filter((season) => !hidden.includes(season));
 
   el.innerHTML = order.map((season) => {
     const items = ARTISTS.filter((a) => a.category !== "お菓子")
