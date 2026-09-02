@@ -597,5 +597,17 @@
     "photo": "37.jpg",
     "artistId": 37,
     "tint": "#f2efe9"
+  },
+  {
+    "name": "coffee mameco",
+    "kana": "コーヒーマメコ",
+    "genre": "コーヒー豆",
+    "desc": "ネコのようにそっと寄り添う、癒しの珈琲をあなたに。",
+    "instagram": "https://www.instagram.com/coffee__mameco/",
+    "detailUrl": "artists/45.html",
+    "category": "お菓子",
+    "photo": "45.jpg",
+    "artistId": 45,
+    "tint": "#f2efe9"
   }
 ]
