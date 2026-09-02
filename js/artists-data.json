@@ -609,5 +609,20 @@
     "photo": "45.jpg",
     "artistId": 45,
     "tint": "#f2efe9"
+  },
+  {
+    "name": "PUKKA",
+    "kana": "プッカ",
+    "genre": "クラフトバンド雑貨",
+    "desc": "日常に溶け込む、オシャレで使いやすいクラフトバンド雑貨。",
+    "instagram": "https://www.instagram.com/pukka.craft/",
+    "detailUrl": "artists/8.html",
+    "category": "",
+    "seasons": [
+      "秋"
+    ],
+    "photo": "8.jpg",
+    "artistId": 8,
+    "tint": "#f2efe9"
   }
 ]
