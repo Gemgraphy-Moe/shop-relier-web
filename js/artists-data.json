@@ -469,5 +469,21 @@
     "photo": "40.jpg",
     "artistId": 40,
     "tint": "#f2efe9"
+  },
+  {
+    "name": "Remury",
+    "kana": "レムリー",
+    "genre": "刺繍バッグ・ポーチ",
+    "desc": "一針一針丁寧に、緻密に作り上げられた刺繍。",
+    "instagram": "https://www.instagram.com/ryou_riz.remury/",
+    "detailUrl": "artists/6.html",
+    "category": "",
+    "seasons": [
+      "秋",
+      "冬"
+    ],
+    "photo": "6.jpg",
+    "artistId": 6,
+    "tint": "#f2efe9"
   }
 ]
