@@ -545,5 +545,23 @@
     "photo": "44.jpg",
     "artistId": 44,
     "tint": "#f2efe9"
+  },
+  {
+    "name": "ITO-OKASHI",
+    "kana": "イトオカシ",
+    "genre": "米粉の焼き菓子",
+    "desc": "体に優しく、見た目も楽しく、舌も喜ぶ米粉の焼き菓子。",
+    "instagram": "https://www.instagram.com/ito.okashi.2023/",
+    "detailUrl": "artists/22.html",
+    "category": "お菓子",
+    "seasons": [
+      "春",
+      "夏",
+      "秋",
+      "冬"
+    ],
+    "photo": "22.jpg",
+    "artistId": 22,
+    "tint": "#f2efe9"
   }
 ]
