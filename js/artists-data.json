@@ -500,5 +500,20 @@
     "photo": "41.jpg",
     "artistId": 41,
     "tint": "#f2efe9"
+  },
+  {
+    "name": "Quuce",
+    "kana": "クーツェ",
+    "genre": "羊毛フェルト小物",
+    "desc": "今日はどんな顔に見えるかな。見る人に寄り添う羊毛フェルト小物。",
+    "instagram": "https://www.instagram.com/quuce.93/",
+    "detailUrl": "artists/42.html",
+    "category": "",
+    "seasons": [
+      "秋"
+    ],
+    "photo": "42.jpg",
+    "artistId": 42,
+    "tint": "#f2efe9"
   }
 ]
