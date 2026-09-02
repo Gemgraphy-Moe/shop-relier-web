@@ -639,5 +639,20 @@
     "photo": "11.jpg",
     "artistId": 11,
     "tint": "#f2efe9"
+  },
+  {
+    "name": "muupit",
+    "kana": "ムービット",
+    "genre": "オリジナルキャラクターのハンコ",
+    "desc": "見て、使ってほっこり笑顔になる、癒しのキャラクターハンコ。",
+    "instagram": "https://www.instagram.com/muupit_huone/",
+    "detailUrl": "artists/17.html",
+    "category": "",
+    "seasons": [
+      "秋"
+    ],
+    "photo": "17.jpg",
+    "artistId": 17,
+    "tint": "#f2efe9"
   }
 ]
