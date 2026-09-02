@@ -530,5 +530,20 @@
     "photo": "43.jpg",
     "artistId": 43,
     "tint": "#f2efe9"
+  },
+  {
+    "name": "Natural Scent",
+    "kana": "ナチュラルセント",
+    "genre": "耳つぼジュエリー",
+    "desc": "日常に気軽に取り入れられる、おしゃれで可愛い耳ツボジュエリー。",
+    "instagram": "https://www.instagram.com/natural.scent10/",
+    "detailUrl": "artists/44.html",
+    "category": "",
+    "seasons": [
+      "秋"
+    ],
+    "photo": "44.jpg",
+    "artistId": 44,
+    "tint": "#f2efe9"
   }
 ]
