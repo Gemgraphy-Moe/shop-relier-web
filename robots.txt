@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://gemgraphy-moe.github.io/shop-relier-web/sitemap.xml
