@@ -19,11 +19,24 @@
 // ============================================
 
 // ★ 現在の会期。会期が変わったらここを書き換えてください(春 / 夏 / 秋 / 冬)
-const CURRENT_SEASON = "秋";
+//    (管理者サイトの並び替え画面はこの1行を読み取っています)
+let CURRENT_SEASON = "秋";
 
 // ★ 取扱作家ページで表示しない会期。まだ告知していない会期などをここに入れてください。
 //    例: 冬の会期がまだ未公開なら ["冬"]。無ければ空配列 [] のままにしてください。
-const HIDDEN_SEASONS = ["冬"];
+let HIDDEN_SEASONS = ["冬"];
+
+// ★ 会期の予約切り替え。from の日時(日本時間)を過ぎると、自動で上の2つを置き換えます。
+//    切り替え後に上の2行を書き換えたら、ここは空配列 [] に戻してください。
+const SEASON_SWITCHES = [
+  { from: "2026-12-01T00:00:00+09:00", season: "冬", hidden: [] },
+];
+for (const sw of SEASON_SWITCHES) {
+  if (new Date() >= new Date(sw.from)) {
+    CURRENT_SEASON = sw.season;
+    HIDDEN_SEASONS = sw.hidden;
+  }
+}
 
 let ARTISTS = [];
 
